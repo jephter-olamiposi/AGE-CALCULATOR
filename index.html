@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous">
+    <title>AGE CALCULATOR</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class='form'>
+            <div class="input-container">
+                <div class="input">
+                    <label id="l1" for="text">DAY</label>
+                    <input type="text" name="date" id="date"class="input-box"  placeholder="DD">
+                    <small id="small"></small>
+                </div>
+                <div class="input">
+                    <label id="l2" for="text">MONTH</label>
+                    <input type="text" name="month" id="month"class="input-box"  placeholder="MM">
+                    <small id="small1"></small>
+                </div>
+                <div class="input">
+                    <label id="l3" for="text">YEAR</label>
+                    <input type="text" name="year" id="year" class="input-box" placeholder="YYYY">
+                    <small id="small2"></small>
+                </div>
+            </div>
+                <div class="line"></div>
+                <button><img src="./btn.png"></button>
+            <div class="re">
+                <h2 >
+                    <div id="year-re"></div>
+                    <div id="dash">
+                        <div></div>
+                        <div></div>
+                    </div>
+                    years
+                </h2>
+                <h2>
+                    <div id="month-re"></div>
+                    <div id="dash1">
+                        <div></div>
+                        <div></div>
+                    </div>
+                    months
+                </h2>
+                <h2>
+                    <div id="date-re"></div>
+                    <div id="dash2">
+                        <div></div>
+                        <div></div>
+                    </div>
+                    days
+                </h2>
+            </div>
+            </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
