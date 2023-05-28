@@ -34,6 +34,7 @@ button.addEventListener('click', () => {
     }
     else {
         showError.innerHTML = '';
+        label1.style.color = ''
         d_status = true;
 
     }
@@ -51,6 +52,7 @@ button.addEventListener('click', () => {
     }
     else {
         showError2.innerHTML = '';
+        label2.style.color = ''
         m_status = true;
 
     }
@@ -64,6 +66,7 @@ button.addEventListener('click', () => {
     }
     else {
         showError3.innerHTML = '';
+        label3.style.color = ''
         y_status = true;
 
     }
